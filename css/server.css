@@ -1,0 +1,83 @@
+/*全局部分*/
+html,body{
+    margin: 0;
+    background-color: #f6f6f6;
+}
+/*头部*/
+div.head{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+div.head img{
+    height: 60px;
+    margin-left: 20px;
+}
+/*主要*/
+div.main{
+    padding-top: 60px;
+    height:100%;
+    width:100%;
+    position:fixed;
+    display: flex;
+}
+/*布局*/
+div.main div.code{
+    width: 35%;
+    height: 100%;
+    margin-left: 5%;
+}
+#export{
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    color: #767676;
+}
+#qrcode{
+    margin-top: 20%;
+}
+#qrcode img{
+    margin: auto;
+}
+div.main div.code div.intro{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 5%;
+}
+div.main div.table{
+    width: 55%;
+    height: 100%;
+    margin-right: 5%;
+}
+div.main div.table div.tit{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 3%;
+}
+#stulist{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    min-height: 50%;
+    align-content: flex-start;
+}
+#stulist div{
+    width: 20%;
+    display: inline-block;
+    /*padding: 0 2px;*/
+    border-radius: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    /*margin: 5px 2px;*/
+    cursor: pointer;
+}
